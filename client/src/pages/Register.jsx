@@ -30,7 +30,7 @@ const Register = () => {
                 return
             }
 
-            const response = await axios.post('https://finalback-rvru.onrender.com/signup', { email, password })
+            const response = await axios.post('https://loveetback.onrender.com/signup', { email, password })
             
             setCookie('AuthToken', response.data.token)
             setCookie('UserId', response.data.userId)

@@ -17,7 +17,7 @@ const ChatInput = ({ user, clickedUser, getUserMessages, getClickedUsersMessages
       }
 
       try {
-          await axios.post('https://finalback-rvru.onrender.com/message', { message })
+          await axios.post('https://loveetback.onrender.com/message', { message })
           getUserMessages()
           getClickedUsersMessages()
           setTextArea("")

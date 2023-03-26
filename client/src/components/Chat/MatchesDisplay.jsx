@@ -11,7 +11,7 @@ function MatchesDisplay({ matches , setClickUser   }) {
   const matchedUserIds = matches.map(({ user_id }) => user_id);
   const getMatches = async () => {
     try {
-      const response = await axios.get('https://finalback-rvru.onrender.com/users', {
+      const response = await axios.get('https://loveetback.onrender.com/users', {
         params: { userIds: JSON.stringify(matchedUserIds) },
       });
       const matches = response.data.filter(user => matchedUserIds.includes(user.user_id));

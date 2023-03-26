@@ -25,7 +25,7 @@ const EditProfil = () => {
         console.log('submitted')
         e.preventDefault()
         try {
-            const response = await axios.put('https://finalback-rvru.onrender.com/edit', {editData})
+            const response = await axios.put('https://loveetback.onrender.com/edit', {editData})
             console.log(response)
             const success = response.status === 200
             console.log(success);

@@ -19,7 +19,7 @@ function Login() {
         try {
           
 
-            const response = await axios.post('https://finalback-rvru.onrender.com/login', { email, password })
+            const response = await axios.post('https://loveetback.onrender.com/login', { email, password })
 
             setCookie('AuthToken', response.data.token)
             setCookie('UserId', response.data.userId)
