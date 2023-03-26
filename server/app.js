@@ -10,7 +10,7 @@ const {v4: uuidv4} = require('uuid')
 
 const cors = require('cors');
 app.use(cors({
-  origin: 'https://rad-gumption-f2ef49.netlify.app', 
+  origin: 'https://quiet-tapioca-e557f3.netlify.app', 
   credentials : true,
 
 }
