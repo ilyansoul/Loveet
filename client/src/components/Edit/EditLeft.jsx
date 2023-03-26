@@ -17,7 +17,7 @@ function EditLeft({user}) {
       <div className='left-side'>
         <ChatHeader user={user} />
 
-        <a href="/editprofil"><button className='btn-links'>Modifier Informations</button></a>
+        <a href="/homepage/editprofil"><button className='btn-links'>Modifier Informations</button></a>
         <a href="/homepage/localisation"><button className='btn-links'>Localisation</button></a>
         <a href=""><button className='btn-links'>Distance utulisateurs</button></a>
         <a href="/"><button onClick={logout} className='btn-links'>Deconnexion</button></a>
