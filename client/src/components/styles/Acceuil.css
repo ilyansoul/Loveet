@@ -1,11 +1,9 @@
 .background-m {
     background: url("../../images/love2.jpg");
-    height: 100vh;
-    width: 100%;
+    height: auto;
+    width: auto;
     display: flex;
-    /* Set a specific height */
-  
-    /* Position and center the image to scale nicely on all screens */
+
     background-position: center center;
         background-repeat: no-repeat;
     background-size: cover;
@@ -158,6 +156,19 @@ font-size: 3em;
 }
 
 @media only screen and (max-width: 1300px) {
+    .background-m {
+        background: url("../../images/love2.jpg");
+        height: 100vh;
+        width: 100%;
+        display: flex;
+    
+        background-position: center center;
+            background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    
+    
     .nav-bar {
         display: flex;
         
@@ -215,6 +226,18 @@ font-size: 3em;
 
 
 @media only screen and (max-width: 700px) {
+    .background-m {
+        background: url("../../images/love2.jpg");
+        height: 100vh;
+        width: 100%;
+        display: flex;
+    
+        background-position: center center;
+            background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    
 .nav-bar {
     display: flex;
     
@@ -222,7 +245,17 @@ font-size: 3em;
 .logo-acceuil {
 
 }
+p {
+    font-size: 1.3rem;
+    position: relative;
+    right: 50px;
+}
 
+.up-title {
+    font-size: 1.3rem;
+    position: relative;
+    right: 50px;
+}
 .main-acceuil {
     display: flex;
     flex-direction: column;
@@ -271,6 +304,18 @@ display: flex;
 }
 }
 @media only screen and (max-width: 400px) {
+    .background-m {
+        background: url("../../images/love2.jpg");
+        height: 100vh;
+        width: 100%;
+        display: flex;
+    
+        background-position: center center;
+            background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    
 .nav-bar {
     display: flex;
     
@@ -394,14 +439,12 @@ i  {
 
 p {
     font-size: 1.3rem;
-    position: relative;
-    right: 50px;
+   
 }
 
 .up-title {
     font-size: 1.3rem;
-    position: relative;
-    right: 50px;
+  
 }
 
 .descript {
