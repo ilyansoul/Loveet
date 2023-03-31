@@ -63,6 +63,13 @@
     
         
     @media only screen and (max-width: 1300px) {
+      .matches-display {
+        position: relative;
+        
+        width: 100%;
+        left: 70px;
+    
+      }
     .picture-user-matches {
         height: 200px;
         width: 150px;
